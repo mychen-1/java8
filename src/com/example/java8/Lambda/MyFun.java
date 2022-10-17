@@ -1,4 +1,4 @@
-package com.example.java8;
+package com.example.java8.Lambda;
 
 //函数式接口
 @FunctionalInterface

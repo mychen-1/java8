@@ -1,8 +1,9 @@
-package com.example.java8;
+package com.example.java8.Lambda;
 
 import java.util.*;
 import java.util.function.Consumer;
 
+import com.example.java8.Lambda.MyFun;
 import org.junit.Test;
 
 /**
@@ -78,7 +79,7 @@ public class TestLambda {
 
     }
 
-    public  Integer operation(Integer num,MyFun my){
+    public  Integer operation(Integer num, MyFun my){
         return  my.getValue(num);
     }
 }
